@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fceff1; /* Light pink background color */
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #ff6b81; /* Coral pink header color */
+    color: #ffffff; /* White text color */
+}
+
+#orchid-img, #raccoon-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    animation: bounce 2s infinite alternate; /* Bouncing animation for both images */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+#message {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    color: #333; /* Dark text color */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6b81; /* Coral pink footer color */
+    color: #ffffff; /* White text color */
+}
